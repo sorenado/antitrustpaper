@@ -1,0 +1,36 @@
+:root {
+    --title-main-padding: 20px;
+    --title-font: 3.4rem;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(49,49,49, 0.7);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: rgb(232, 232, 232);
+    padding-left: 20px;
+  }
+  
+  
+  header h1 {
+    padding-left: var(--title-main-padding);
+    font-size: var(--title-font)
+  }
+  
+  header h3 {
+    font-style: italic;
+    font-size: calc(var(--title-font) - 1.75rem);
+    opacity: 0.7;
+    transform: translateY(-20px);
+    padding-left: calc(var(--title-main-padding) + 8px);
+  }
+  

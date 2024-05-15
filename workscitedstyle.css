@@ -19,28 +19,28 @@ nav {
     flex-direction: row-reverse;
     gap: 2px;
     padding-right: 2%;
-}
+  }
   
-nav button {
+  nav button {
     width: 20%;
     text-transform: uppercase;
     letter-spacing: 2px;
     background-color: transparent;
-    color: white;
+    color: grey;
     font-family: inherit;
     text-decoration: none;
     border: none;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid black;
     transition: .3s ease-in;
-}
+  }
   
-nav button:hover {
+  nav button:hover {
     letter-spacing: 1px;
-    color: gold;
+    color: black;
     transition: .3s ease-in-out;
     
   
-}
+  }
 
 header {
   padding-top: 1rem;

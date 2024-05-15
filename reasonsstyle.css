@@ -48,11 +48,11 @@
     clear: right;
   }
   
-  .apple-container {
-          margin-right: auto;
-      margin-bottom: 0;
-      width: 50%;
-      margin-left: auto;
+  .apple-container { 
+    margin-right: 30%;
+    margin-bottom: 0;
+    float: right;
+  
   }
   
   .apple-container h3 {
@@ -61,6 +61,7 @@
     font-size: 0.8rem;
     text-align: right;
     font-style: italic;
+    
   
   
   }
@@ -75,12 +76,12 @@
   }
   
   .amazon-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    margin-right: 20%;
+    float: right;
   
    
   }
+  
   
   .amazon-container h3 {
     margin: 0;

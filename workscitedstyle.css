@@ -38,9 +38,13 @@ nav {
     letter-spacing: 1px;
     color: black;
     transition: .3s ease-in-out;
-    
-  
+    }
+nav button a, nav button a:hover, nav button a:active{
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
   }
+
 
 header {
   padding-top: 1rem;

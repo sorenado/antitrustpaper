@@ -1,6 +1,8 @@
 :root {
     --title-main-padding: 20px;
     --title-font: 3.4rem;
+    --title-background-color: 255,213,79
+
   }
   
 body, html {
@@ -40,15 +42,32 @@ nav button:hover {
   
 }
 
+header {
+  padding-top: 1rem;
+  background-color: rgba(var(--title-background-color), 0.7);
+}
+
 h1 {
+    margin-top: 0;
     text-transform: uppercase;
-    letter-spacing: 2rem;
-    border-bottom: 2rem;
+    letter-spacing: 1.2rem;
+    border-bottom: 4px solid black;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+
+}
+
+h1, .citation {
+    margin-left: auto;
+    margin-right: auto;
 }
 .citation {
+    width: 70%;
     text-indent: -0.5in;
     margin-left: 0.5in;
     display: block;
+    padding-left: 10%
 }
 
 a {

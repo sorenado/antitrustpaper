@@ -1,0 +1,115 @@
+:root {
+    --title-background-color: 255,213,79
+  }
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgba(var(--title-background-color), 0.7);
+    padding-top: 2%;
+    text-align: left; 
+    padding-left: 2rem;
+    border-bottom: 10px solid rgb(49,49,49);
+  
+  }
+  .finance, .remedies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .finance p, .remedies p {
+    width: 60%;
+    text-align: left;
+    text-indent: 3rem;
+  }
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.7rem;
+    border-bottom: 4px solid;
+    padding-bottom: 2%;
+    width: 80%;
+  
+  }
+  
+  .paragraph-1 {
+    width: 100%;
+    
+  }
+  
+  .paragraph-1 p {
+    margin-left: auto;
+    margin-right: auto;
+    clear: right;
+  }
+  
+  .apple-container {
+          margin-right: auto;
+      margin-bottom: 0;
+      width: 50%;
+      margin-left: auto;
+  }
+  
+  .apple-container h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    text-align: right;
+    font-style: italic;
+  
+  
+  }
+  
+  .remedies-p1-container {
+    width: 100%;
+  }
+  
+  .remedies-p1-container p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .amazon-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  
+   
+  }
+  
+  .amazon-container h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    text-align: right;
+    font-style: italic;
+  }
+  
+  .but-button{
+    background-color: rgba(var(--title-background-color), 0.7);;
+    border: none;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    width: 100%;
+    height: 10%;
+    color: black;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .but-button:hover {
+    letter-spacing: 2rem;
+    background-color: rgba(var(--title-background-color), 0.3);
+    
+  }
+  a[href="counter.html"] {
+    text-decoration: none;
+    color: black;
+  }

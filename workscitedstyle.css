@@ -40,15 +40,15 @@ nav {
     transition: .3s ease-in-out;
     }
 nav button a, nav button a:hover, nav button a:active{
-    text-decoration: none;
-    color: inherit;
-    margin: 0;
+    text-decoration: none !important;
+    color: inherit !important;
+    margin: 0 !important;
   }
 
 
 header {
-  padding-top: 1rem;
-  background-color: rgba(var(--title-background-color), 0.7);
+    padding-top: 15px;
+    background-color: rgba(var(--title-background-color), 0.7);
 }
 
 h1 {

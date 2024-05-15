@@ -1,0 +1,66 @@
+:root {
+    --title-main-padding: 20px;
+    --title-font: 3.4rem;
+  }
+  
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+  
+  
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2px;
+    padding-right: 2%;
+}
+  
+nav button {
+    width: 20%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: white;
+    font-family: inherit;
+    text-decoration: none;
+    border: none;
+    border-bottom: 2px solid gold;
+    transition: .3s ease-in;
+}
+  
+nav button:hover {
+    letter-spacing: 1px;
+    color: gold;
+    transition: .3s ease-in-out;
+    
+  
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2rem;
+    border-bottom: 2rem;
+}
+.citation {
+    text-indent: -0.5in;
+    margin-left: 0.5in;
+    display: block;
+}
+
+a {
+    text-decoration: underline;
+    color: blue;
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+em {
+    font-style: italic;
+}

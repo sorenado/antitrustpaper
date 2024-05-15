@@ -17,6 +17,13 @@
     border-bottom: 10px solid rgb(49,49,49);
   
   }
+  a, a:hover, a:active{
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+  }
+  
+  
   .finance, .remedies {
     display: flex;
     flex-direction: column;

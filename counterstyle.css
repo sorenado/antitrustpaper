@@ -64,6 +64,12 @@ nav button:hover {
 
 }
 
+a, a:hover, a:active{
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+}
+
 .counter-paragraph {
   text-indent: 3rem;
   margin-left: auto;
